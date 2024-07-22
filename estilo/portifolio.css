@@ -1,0 +1,217 @@
+/* :root {
+    --cor-um: #FFFFFF;
+    --cor-dois: #53da2a;
+    --cor-tres: #514E4E;
+    --cor-quatro: #6F6C6C;
+    
+    --gap:4rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    background-image: url(../imagens/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-color: var(--cor-quatro);
+    color: var(--cor-um);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 1.7;
+    
+}
+
+h1 {
+    color: var(--cor-dois);
+    text-align: center;
+}
+
+h2, h3, h4 {
+    color: var(--cor-dois);
+    text-align: center;
+}
+
+.cabecalhoPrincipal {
+    border-right: 2px solid white;
+}
+
+.cabecalhoPrincipal {
+    flex: 0 0 26rem;
+    background-color: rgba(49, 51, 59, .9);
+}
+
+.cabecalhoPrincipal img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.cabecalhoPrincipal_nav {
+    text-align: center;
+    padding: 5rem 2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.listasItens {
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.listasItens li {
+    background-color: var(--cor-dois);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.listasItens a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.paginaPrincipal{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 3rem 5rem 5rem;
+    flex: 1 0 50%;
+    background-color: rgba(49, 51, 59, .8);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.destaque {
+color: var(--cor-dois);
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 3.5rem;
+}
+
+Currículo
+.dadosPessoais {
+    text-align: center;
+}
+
+projetos
+.listaDeProjetos {
+    display: flex;
+    gap: var(--gap);
+    flex-wrap: wrap;
+}
+
+/* .listaDeProjetos div {
+    border: 1px solid greenyellow;
+    flex: 0 0 20rem;
+}
+
+.listaDeProjetos img {
+    max-width: 100%;
+    display: block;
+}  */
+
+
+:root {
+    --cor-um: #FFFFFF;
+    --cor-dois: #53da2a;
+    --cor-tres: #514E4E;
+    --cor-quatro: #6F6C6C;
+    
+    --gap:4rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6F6C6C;
+}
+
+.cabecalhoPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color: #5f14b6;
+}
+
+h1 {
+    color: var(--cor-dois);
+}
+
+h2, h3, h4 {
+    color: var(--cor-dois);
+}
+
+.cabecalhoPrincipal_nav {
+    border: 2px solid black;
+    display: flex;
+} 
+
+.cabecalhoPrincipal_nav ul {
+    /* display: flex; */
+}
+
+.cabecalhoPrincipal_nav img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} 
+
+.cabecalhoPrincipal_nav img {
+    max-width: 100%;
+}
+
+.listasItens {
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.listasItens li {
+    border-radius: .5rem;
+}
+
+.listasItens li a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    margin: .5rem;
+    padding: .5rem;
+    background-color: var(--cor-dois);
+    border-radius: 5px;
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.destaque {
+color: var(--cor-dois);
+}
