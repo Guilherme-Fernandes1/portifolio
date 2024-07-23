@@ -137,6 +137,12 @@ projetos
 }
 
 /* 
+smartphone min 767px - 48em
+tablet max 1023px 
+desktop min 1024px  64em 
+*/
+
+/* 
 .oxygen-regular {
   font-family: "Oxygen", sans-serif;
   font-weight: 400;
@@ -158,7 +164,6 @@ projetos
 body {
     display: flex;
     flex-direction: column;
-    /* margin: 5em; */
     background-color: #6F6C6C;
     font-family: "Oxygen", sans-serif;
     line-height: 1.7; 
@@ -170,6 +175,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #504d4d;
+    margin: 0
 }
 
 h1 {
@@ -218,7 +224,6 @@ h2, h3, h4 {
 
 }
 
-
 .listasItens li a {
     display: block;
     text-decoration: none;
@@ -238,7 +243,7 @@ h2, h3, h4 {
     font-size: 2rem;
 }
 
-.paginaPrincipal p {
+.centralizar p {
     padding: .5em 0;
     margin: 0 auto;
 }
@@ -248,5 +253,53 @@ h2, h3, h4 {
 }
 
 .destaque {
-color: var(--cor-dois);
+    color: var(--cor-dois);
+    font-weight: 700;
 }
+
+.paginaPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    background-color: var(--cor-quatro)
+}
+
+.listaDeProjetos_individual {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-tres);
+    border-radius: 5px;
+}
+
+.listadeProjetos_individuais_img {
+    background-color: #c5320d;
+    height: 300px;
+}
+
+.listadeProjetos_individuais_img img {
+    height: 100%;
+    width: 100%;
+}
+
+/* media screen */
+/* 
+smartphone min 767px - 48em
+tablet max 1023px 
+desktop min 1024px  64em 
+*/
+
+@media screen and (min-width:48em){
+    body {
+        color:greenyellow;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width:64em){
+    body {
+        color:#c5320d;
+        flex-direction: row;
+    }
+}
+
