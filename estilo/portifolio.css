@@ -129,18 +129,40 @@ projetos
 :root {
     --cor-um: #FFFFFF;
     --cor-dois: #53da2a;
+    --cor-dois-hover: #53da2a8a;
     --cor-tres: #514E4E;
     --cor-quatro: #6F6C6C;
     
     --gap:4rem;
 }
 
+/* 
+.oxygen-regular {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.oxygen-light {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+*/
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* margin: 5em; */
     background-color: #6F6C6C;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Oxygen", sans-serif;
+    line-height: 1.7; 
+    font-weight: 400;
 }
 
 .cabecalhoPrincipal {
@@ -191,6 +213,12 @@ h2, h3, h4 {
     border-radius: .5rem;
 }
 
+.listasItens li a:hover {
+    background-color: var(--cor-dois-hover); 
+
+}
+
+
 .listasItens li a {
     display: block;
     text-decoration: none;
@@ -201,13 +229,18 @@ h2, h3, h4 {
     border-radius: 5px;
 }
 
+
 .centralizar {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     margin: auto;
     font-size: 2rem;
+}
+
+.paginaPrincipal p {
+    padding: .5em 0;
+    margin: 0 auto;
 }
 
 .uppercase {
