@@ -246,6 +246,7 @@ h2, h3, h4 {
 .centralizar p {
     padding: .5em 0;
     margin: 0 auto;
+
 }
 
 .uppercase {
@@ -300,6 +301,37 @@ h2, h3, h4 {
 
 .listaDeProjetos_individual:focus, .listaDeProjetos_individual:hover {
     scale: 1.02; 
+}
+
+.footer {
+    background-color: var(--cor-tres);
+    text-align: center;
+}
+
+/* PAGINA CURRICULO */
+.curriculo {
+    padding: 1em;
+}
+.curriculo h1, .dadosPessoais_destaque {
+    text-align: center;
+}
+
+.dadosPessoais p {
+    padding-left: 1em;
+}
+
+/* SOBRE */
+.sobre {
+    padding: 1em;
+}
+
+.sobre p {
+    padding-left: 1em;
+    margin: 0;
+}
+
+.sobre a {
+    color: inherit;
 }
 
 /* media screen */
