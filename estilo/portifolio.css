@@ -164,10 +164,12 @@ desktop min 1024px  64em
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between; 
     background-color: #6F6C6C;
     font-family: "Oxygen", sans-serif;
     line-height: 1.7; 
     font-weight: 400;
+    min-height: 100vh;
 }
 
 .cabecalhoPrincipal {
